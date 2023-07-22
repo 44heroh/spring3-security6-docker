@@ -4,7 +4,7 @@
 
 1.😀 Склонировать данный репозиторий
 ```sh
-git clone https://github.com/44heroh/spring-security-docker.git
+git clone https://github.com/44heroh/spring3-security6-docker.git
 ```
 2. Сделать 
 ```sh
