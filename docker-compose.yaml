@@ -12,6 +12,8 @@ services :
       - SPRING_DATASOURCE_URL=jdbc:postgresql://db:5432/courses
       - SPRING_DATASOURCE_USERNAME=demo
       - SPRING_DATASOURCE_PASSWORD=demo
+      - SPRING_JWT_SECRET=b5f59337a612a2a7dc07328f3e7d1a04722967c7f06df20a499a7d3f91ff2a7e
+      - SPRING_JWT_EXPIRATIONMS=86400000
     networks:
       - spring-docker
   db:

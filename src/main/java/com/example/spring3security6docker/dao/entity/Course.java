@@ -13,8 +13,6 @@ import java.util.Date;
 @Table(name = "course", schema = "courses")
 @NoArgsConstructor
 @AllArgsConstructor
-@Setter
-@Getter
 @Cacheable
 @org.hibernate.annotations.Cache(usage = CacheConcurrencyStrategy.READ_WRITE)
 public class Course extends BaseEntity implements Serializable {
